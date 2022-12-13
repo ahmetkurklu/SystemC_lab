@@ -4,7 +4,7 @@
 int sc_main(int argc, char *argv[])
 {
     //Déclaration des signaux
-    sc_clock clk("clk", 10, SC_NS,5,5);
+    sc_clock clk("clk", 10, SC_NS,0.5,5,SC_NS);
     sc_signal<bool> err;
     sc_signal<bool> e;
 
@@ -22,13 +22,13 @@ int sc_main(int argc, char *argv[])
 
     //Variation de e
     e = 0;
-    sc_start(5, SC_NS);
-    e = 1;
-    sc_start(15, SC_NS);
-    e = 0;
-    sc_start(2, SC_NS);
+    sc_start(10, SC_NS);
     e = 1;
     sc_start(10, SC_NS);
+    e = 0;
+    sc_start(20, SC_NS);
+    e = 1;
+    sc_start(30, SC_NS);
     int i;
     for(i = 0;i<20;i++){
         if(e == 0){
