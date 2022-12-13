@@ -2,8 +2,15 @@
 
 SC_MODULE(Generator)
 {
+
+  sc_in<bool> a;
+  sc_in<bool> clock;
+  sc_fifo<sc_uint<8>> din[8];
+  sc_out<bool> b;
   
-  SC_CTOR(Generator) {
-  
+  void genere();
+
+  SC_CTOR(Generator){
+    SC_THREAD(genere);
   }
 };
