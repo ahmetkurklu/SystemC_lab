@@ -1,0 +1,35 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Dec 15 12:05:40 2020
+[*]
+[dumpfile] "/home/ge/systemc/counter/tb.vcd"
+[dumpfile_mtime] "Tue Dec 15 12:03:22 2020"
+[dumpfile_size] 1310
+[savefile] "/home/ge/systemc/counter/tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -38 -51
+*-15.951506 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 212
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 149
+@29
+SystemC.rst
+@28
+SystemC.clk
+@c00024
+SystemC.cnt[7:0]
+@28
+(0)SystemC.cnt[7:0]
+(1)SystemC.cnt[7:0]
+(2)SystemC.cnt[7:0]
+(3)SystemC.cnt[7:0]
+(4)SystemC.cnt[7:0]
+(5)SystemC.cnt[7:0]
+(6)SystemC.cnt[7:0]
+(7)SystemC.cnt[7:0]
+@1401204
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
