@@ -7,6 +7,6 @@ void Generator::generating()
     {
         output.write(cnt);
         cnt ++;
-        wait(50, SC_NS);
+        wait(50,SC_NS);
     }
 }
