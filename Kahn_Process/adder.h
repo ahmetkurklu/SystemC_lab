@@ -1,3 +1,6 @@
+#ifndef ADDER
+#define ADDER
+
 #include "systemc.h"
 
 SC_MODULE(Adder)
@@ -12,3 +15,5 @@ SC_MODULE(Adder)
         SC_THREAD(adding);
     }
 };
+
+#endif

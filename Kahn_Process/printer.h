@@ -1,3 +1,6 @@
+#ifndef PRINTER
+#define PRINTER
+
 #include "systemc.h"
 
 SC_MODULE(Printer){
@@ -9,3 +12,5 @@ SC_MODULE(Printer){
         SC_THREAD(printing);
     }
 };
+
+#endif

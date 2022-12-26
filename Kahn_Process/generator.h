@@ -1,3 +1,6 @@
+#ifndef GENERATOR
+#define GENERATOR
+
 #include "systemc.h"
 
 SC_MODULE(Generator){
@@ -11,3 +14,5 @@ SC_MODULE(Generator){
         SC_THREAD(generating);
     }
 };
+
+#endif

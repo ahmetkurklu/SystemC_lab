@@ -1,3 +1,7 @@
+#ifndef FORKER
+#define FORKER
+
+
 #include "forker.h"
 
 void Forker::forking(){
@@ -8,3 +12,5 @@ void Forker::forking(){
         output2.write(value);
     }
 }
+
+#endif
