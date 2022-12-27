@@ -6,7 +6,7 @@
 SC_MODULE(Generator){
 
     sc_fifo_out<int> output;
-
+    
     int cnt;
     void generating();
 
