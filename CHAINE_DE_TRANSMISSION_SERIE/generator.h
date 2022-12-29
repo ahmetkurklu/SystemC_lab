@@ -5,7 +5,7 @@
 
 SC_MODULE(Generator){
 
-  sc_fifo_out<sc_bv<8>> output;
+  sc_fifo_out<sc_lv<8>> output;
 
 
   void generating();
