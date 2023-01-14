@@ -1,0 +1,248 @@
+$date
+     Jan 14, 2023       20:28:30
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Mar 22 2020 15:59:11
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clk       $end
+$var wire    1  aaaab  LC       $end
+$var wire    1  aaaac  UD       $end
+$var wire    9  aaaad  D [8:0]  $end
+$var wire    1  aaaae  CB       $end
+$var wire    9  aaaaf  Q [8:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+0aaaab
+0aaaac
+b101 aaaad
+0aaaae
+b101 aaaaf
+$end
+
+#5000
+0aaaaa
+
+#10000
+1aaaaa
+
+#15000
+0aaaaa
+
+#20000
+1aaaaa
+1aaaab
+
+#25000
+0aaaaa
+
+#30000
+1aaaaa
+b110 aaaaf
+
+#35000
+0aaaaa
+
+#40000
+1aaaaa
+b111 aaaaf
+
+#45000
+0aaaaa
+
+#50000
+1aaaaa
+b1000 aaaaf
+
+#55000
+0aaaaa
+
+#60000
+1aaaaa
+b1001 aaaaf
+
+#65000
+0aaaaa
+
+#70000
+1aaaaa
+1aaaae
+b0 aaaaf
+
+#75000
+0aaaaa
+
+#80000
+1aaaaa
+0aaaae
+b1 aaaaf
+
+#85000
+0aaaaa
+
+#90000
+1aaaaa
+b10 aaaaf
+
+#95000
+0aaaaa
+
+#100000
+1aaaaa
+1aaaac
+b11 aaaaf
+
+#105000
+0aaaaa
+
+#110000
+1aaaaa
+b10 aaaaf
+
+#115000
+0aaaaa
+
+#120000
+1aaaaa
+b1 aaaaf
+
+#125000
+0aaaaa
+
+#130000
+1aaaaa
+b0 aaaaf
+
+#135000
+0aaaaa
+
+#140000
+1aaaaa
+1aaaae
+b1001 aaaaf
+
+#145000
+0aaaaa
+
+#150000
+1aaaaa
+0aaaae
+b1000 aaaaf
+
+#155000
+0aaaaa
+
+#160000
+1aaaaa
+b111 aaaaf
+
+#165000
+0aaaaa
+
+#170000
+1aaaaa
+b110 aaaaf
+
+#175000
+0aaaaa
+
+#180000
+1aaaaa
+b101 aaaaf
+
+#185000
+0aaaaa
+
+#190000
+1aaaaa
+b100 aaaaf
+
+#195000
+0aaaaa
+
+#200000
+1aaaaa
+b11 aaaaf
+
+#205000
+0aaaaa
+
+#210000
+1aaaaa
+b10 aaaaf
+
+#215000
+0aaaaa
+
+#220000
+1aaaaa
+b1 aaaaf
+
+#225000
+0aaaaa
+
+#230000
+1aaaaa
+b0 aaaaf
+
+#235000
+0aaaaa
+
+#240000
+1aaaaa
+1aaaae
+b1001 aaaaf
+
+#245000
+0aaaaa
+
+#250000
+1aaaaa
+0aaaae
+b1000 aaaaf
+
+#255000
+0aaaaa
+
+#260000
+1aaaaa
+b111 aaaaf
+
+#265000
+0aaaaa
+
+#270000
+1aaaaa
+b110 aaaaf
+
+#275000
+0aaaaa
+
+#280000
+1aaaaa
+b101 aaaaf
+
+#285000
+0aaaaa
+
+#290000
+1aaaaa
+b100 aaaaf
+
+#295000
+0aaaaa
+
+#300000
