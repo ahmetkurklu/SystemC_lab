@@ -4,7 +4,7 @@
 #include "systemc.h"
 
 typedef
-    enum {SO,S1,S2,S3,S4,S5} t_etat;
+    enum {S0,S1,S2,S3,S4,S5} t_etat;
 
 SC_MODULE(Genseq){
 
